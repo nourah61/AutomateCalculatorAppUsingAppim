@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="check_sum_operation">
+    <test verbose="1" preserve-order="true" name="checksumoperation">
+        <classes>
+            <class name="testcases.TC01_Checksum"></class>
+        </classes>
+    </test>
+
+    <test verbose="1" preserve-order="true" name="check different">
+        <classes>
+            <class name="testcases.TC02_CheckDifferent"></class>
+        </classes>
+    </test>
+
+    <test verbose="1" preserve-order="true" name="check division">
+        <classes>
+            <class name="testcases.TC03_CheckDivision"></class>
+        </classes>
+    </test>
+
+    <test verbose="1" preserve-order="true" name="check multi">
+        <classes>
+            <class name="testcases.TC04_CheckMulti"></class>
+        </classes>
+    </test>
+
+</suite>

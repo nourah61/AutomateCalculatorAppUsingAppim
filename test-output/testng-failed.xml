@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [check_sum_operation]">
+  <test thread-count="5" name="check different(failed)">
+    <classes>
+      <class name="testcases.TC02_CheckDifferent">
+        <methods>
+          <include name="prepare"/>
+          <include name="TearDown"/>
+          <include name="CheckDifferent"/>
+        </methods>
+      </class> <!-- testcases.TC02_CheckDifferent -->
+    </classes>
+  </test> <!-- check different(failed) -->
+</suite> <!-- Failed suite [check_sum_operation] -->

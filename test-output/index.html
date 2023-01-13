@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-check_sum_operation">
+              <span class="suite-name border-passed">check_sum_operation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-check_sum_operation">
+                    <span>C:\seleinum_demos\Demo5\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-check_sum_operation">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-check_sum_operation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-check_sum_operation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-check_sum_operation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-check_sum_operation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-check_sum_operation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-check_sum_operation" class="hide-methods passed suite-check_sum_operation"> (hide)</a> <!-- hide-methods passed suite-check_sum_operation -->
+                      <a href="#" panel-name="suite-check_sum_operation" class="show-methods passed suite-check_sum_operation"> (show)</a> <!-- show-methods passed suite-check_sum_operation -->
+                    </span>
+                    <div class="method-list-content passed suite-check_sum_operation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC02_CheckDifferent" hash-for-method="CheckDifferent">CheckDifferent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC03_CheckDivision" hash-for-method="CheckDivision">CheckDivision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC04_CheckMulti" hash-for-method="CheckMuliti">CheckMuliti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC01_Checksum" hash-for-method="checksum">checksum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-check_sum_operation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-check_sum_operation" class="panel check_sum_operation">
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC01_Checksum</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checksum">
+                  </a> <!-- checksum -->
+                  <span class="method-name">checksum</span>
+                  <em>
+(check sum operation in the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC04_CheckMulti</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckMuliti">
+                  </a> <!-- CheckMuliti -->
+                  <span class="method-name">CheckMuliti</span>
+                  <em>
+(check multi in the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC02_CheckDifferent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDifferent">
+                  </a> <!-- CheckDifferent -->
+                  <span class="method-name">CheckDifferent</span>
+                  <em>
+(check Different operation in the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC03_CheckDivision</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDivision">
+                  </a> <!-- CheckDivision -->
+                  <span class="method-name">CheckDivision</span>
+                  <em>
+(check Division the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
+        </div> <!-- panel check_sum_operation -->
+        <div panel-name="test-xml-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\seleinum_demos\Demo5\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;check_sum_operation&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checksumoperation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC01_Checksum&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- checksumoperation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;check different&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC02_CheckDifferent&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- check different --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;check division&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC03_CheckDivision&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- check division --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;check multi&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC04_CheckMulti&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- check multi --&gt;
+&lt;/suite&gt; &lt;!-- check_sum_operation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for check_sum_operation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">checksumoperation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">check different (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">check division (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">check multi (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for check_sum_operation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for check_sum_operation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_check_sum_operation');
+function tableData_check_sum_operation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checksum')
+data.setCell(0, 2, 'testcases.TC01_Checksum')
+data.setCell(0, 3, 5757);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CheckDifferent')
+data.setCell(1, 2, 'testcases.TC02_CheckDifferent')
+data.setCell(1, 3, 5302);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckMuliti')
+data.setCell(2, 2, 'testcases.TC04_CheckMulti')
+data.setCell(2, 3, 4955);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckDivision')
+data.setCell(3, 2, 'testcases.TC03_CheckDivision')
+data.setCell(3, 3, 4952);
+window.suiteTableData['check_sum_operation']= { tableData: data, tableDiv: 'times-div-check_sum_operation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-check_sum_operation">
+              </div> <!-- times-div-check_sum_operation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for check_sum_operation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-check_sum_operation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC01_Checksum</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checksum</span>
+                <span class="method-start">9566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">15328 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC02_CheckDifferent</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">15995 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckDifferent</span>
+                <span class="method-start">23315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">28618 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC03_CheckDivision</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">29177 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckDivision</span>
+                <span class="method-start">36692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">41644 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC04_CheckMulti</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">42155 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckMuliti</span>
+                <span class="method-start">50087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">55042 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
