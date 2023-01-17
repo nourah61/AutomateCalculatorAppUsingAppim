@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-check_sum_operation">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">6 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +119,16 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC05_ComplexMath" hash-for-method="Complex">Complex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC06_ComplexTwo" hash-for-method="ComplexTwo">ComplexTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-check_sum_operation" title="testcases.TC01_Checksum" hash-for-method="checksum">checksum</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -134,6 +144,57 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-check_sum_operation" class="panel check_sum_operation">
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC06_ComplexTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ComplexTwo">
+                  </a> <!-- ComplexTwo -->
+                  <span class="method-name">ComplexTwo</span>
+                  <em>
+(check another complex math in the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC05_ComplexMath</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Complex">
+                  </a> <!-- Complex -->
+                  <span class="method-name">Complex</span>
+                  <em>
+(check complex math in the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
+          <div class="suite-check_sum_operation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC03_CheckDivision</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDivision">
+                  </a> <!-- CheckDivision -->
+                  <span class="method-name">CheckDivision</span>
+                  <em>
+(check Division the calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-check_sum_operation-class-passed -->
           <div class="suite-check_sum_operation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -185,23 +246,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-check_sum_operation-class-passed -->
-          <div class="suite-check_sum_operation-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC03_CheckDivision</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CheckDivision">
-                  </a> <!-- CheckDivision -->
-                  <span class="method-name">CheckDivision</span>
-                  <em>
-(check Division the calculator)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-check_sum_operation-class-passed -->
         </div> <!-- panel check_sum_operation -->
         <div panel-name="test-xml-check_sum_operation" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -217,21 +261,31 @@
       &lt;class name=&quot;testcases.TC01_Checksum&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- checksumoperation --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;check different&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checkdifferent&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.TC02_CheckDifferent&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- check different --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;check division&quot;&gt;
+  &lt;/test&gt; &lt;!-- checkdifferent --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checkdivision&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.TC03_CheckDivision&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- check division --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;check multi&quot;&gt;
+  &lt;/test&gt; &lt;!-- checkdivision --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checkmulti&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.TC04_CheckMulti&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- check multi --&gt;
+  &lt;/test&gt; &lt;!-- checkmulti --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checkcomplex&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC05_ComplexMath&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- checkcomplex --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checkcomplextwo&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC06_ComplexTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- checkcomplextwo --&gt;
 &lt;/suite&gt; &lt;!-- check_sum_operation --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,13 +300,19 @@
                 <span class="test-name">checksumoperation (1 class)</span>
               </li>
               <li>
-                <span class="test-name">check different (1 class)</span>
+                <span class="test-name">checkdifferent (1 class)</span>
               </li>
               <li>
-                <span class="test-name">check division (1 class)</span>
+                <span class="test-name">checkdivision (1 class)</span>
               </li>
               <li>
-                <span class="test-name">check multi (1 class)</span>
+                <span class="test-name">checkmulti (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">checkcomplex (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">checkcomplextwo (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -278,28 +338,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checksum')
-data.setCell(0, 2, 'testcases.TC01_Checksum')
-data.setCell(0, 3, 5757);
+data.setCell(0, 1, 'Complex')
+data.setCell(0, 2, 'testcases.TC05_ComplexMath')
+data.setCell(0, 3, 21696);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CheckDifferent')
-data.setCell(1, 2, 'testcases.TC02_CheckDifferent')
-data.setCell(1, 3, 5302);
+data.setCell(1, 1, 'ComplexTwo')
+data.setCell(1, 2, 'testcases.TC06_ComplexTwo')
+data.setCell(1, 3, 16836);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CheckMuliti')
-data.setCell(2, 2, 'testcases.TC04_CheckMulti')
-data.setCell(2, 3, 4955);
+data.setCell(2, 1, 'CheckDivision')
+data.setCell(2, 2, 'testcases.TC03_CheckDivision')
+data.setCell(2, 3, 4960);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CheckDivision')
-data.setCell(3, 2, 'testcases.TC03_CheckDivision')
-data.setCell(3, 3, 4952);
+data.setCell(3, 1, 'checksum')
+data.setCell(3, 2, 'testcases.TC01_Checksum')
+data.setCell(3, 3, 4812);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckMuliti')
+data.setCell(4, 2, 'testcases.TC04_CheckMulti')
+data.setCell(4, 3, 4804);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CheckDifferent')
+data.setCell(5, 2, 'testcases.TC02_CheckDifferent')
+data.setCell(5, 3, 4588);
 window.suiteTableData['check_sum_operation']= { tableData: data, tableDiv: 'times-div-check_sum_operation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
               <div id="times-div-check_sum_operation">
               </div> <!-- times-div-check_sum_operation -->
             </div> <!-- times-div -->
@@ -332,56 +400,86 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">checksum</span>
-                <span class="method-start">9566 ms</span>
+                <span class="method-start">8161 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">15328 ms</span>
+                <span class="method-start">12975 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC02_CheckDifferent</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">prepare</span>
-                <span class="method-start">15995 ms</span>
+                <span class="method-start">13644 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">CheckDifferent</span>
-                <span class="method-start">23315 ms</span>
+                <span class="method-start">21177 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">28618 ms</span>
+                <span class="method-start">25766 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC03_CheckDivision</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">prepare</span>
-                <span class="method-start">29177 ms</span>
+                <span class="method-start">26179 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">CheckDivision</span>
-                <span class="method-start">36692 ms</span>
+                <span class="method-start">33473 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">41644 ms</span>
+                <span class="method-start">38433 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC04_CheckMulti</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">prepare</span>
-                <span class="method-start">42155 ms</span>
+                <span class="method-start">38964 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">CheckMuliti</span>
-                <span class="method-start">50087 ms</span>
+                <span class="method-start">46908 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">55042 ms</span>
+                <span class="method-start">51713 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC05_ComplexMath</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">52191 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Complex</span>
+                <span class="method-start">59301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">80999 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC06_ComplexTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">81467 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ComplexTwo</span>
+                <span class="method-start">89068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">105904 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,73 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="check_sum_operation" duration-ms="55592" started-at="2023-01-13T19:21:23 AST" finished-at="2023-01-13T19:22:19 AST">
+  <suite name="check_sum_operation" duration-ms="106290" started-at="2023-01-18T02:25:59 AST" finished-at="2023-01-18T02:27:45 AST">
     <groups>
     </groups>
-    <test name="checksumoperation" duration-ms="15969" started-at="2023-01-13T19:21:23 AST" finished-at="2023-01-13T19:21:39 AST">
+    <test name="checksumoperation" duration-ms="13639" started-at="2023-01-18T02:25:59 AST" finished-at="2023-01-18T02:26:12 AST">
       <class name="testcases.TC01_Checksum">
-        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC01_Checksum@3a883ce7]" name="prepare" is-config="true" duration-ms="9503" started-at="2023-01-13T19:21:23 AST" finished-at="2023-01-13T19:21:33 AST">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC01_Checksum@27d415d9]" name="prepare" is-config="true" duration-ms="8134" started-at="2023-01-18T02:25:59 AST" finished-at="2023-01-18T02:26:07 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepare -->
-        <test-method status="PASS" signature="checksum()[pri:1, instance:testcases.TC01_Checksum@3a883ce7]" name="checksum" duration-ms="5757" started-at="2023-01-13T19:21:33 AST" description="check sum operation in the calculator" finished-at="2023-01-13T19:21:39 AST">
+        <test-method status="PASS" signature="checksum()[pri:1, instance:testcases.TC01_Checksum@27d415d9]" name="checksum" duration-ms="4812" started-at="2023-01-18T02:26:07 AST" description="check sum operation in the calculator" finished-at="2023-01-18T02:26:12 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checksum -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC01_Checksum@3a883ce7]" name="TearDown" is-config="true" duration-ms="635" started-at="2023-01-13T19:21:39 AST" finished-at="2023-01-13T19:21:39 AST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC01_Checksum@27d415d9]" name="TearDown" is-config="true" duration-ms="656" started-at="2023-01-18T02:26:12 AST" finished-at="2023-01-18T02:26:12 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testcases.TC01_Checksum -->
     </test> <!-- checksumoperation -->
-    <test name="check different" duration-ms="13137" started-at="2023-01-13T19:21:39 AST" finished-at="2023-01-13T19:21:52 AST">
+    <test name="checkdifferent" duration-ms="12522" started-at="2023-01-18T02:26:12 AST" finished-at="2023-01-18T02:26:25 AST">
       <class name="testcases.TC02_CheckDifferent">
-        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC02_CheckDifferent@53f65459]" name="prepare" is-config="true" duration-ms="7319" started-at="2023-01-13T19:21:39 AST" finished-at="2023-01-13T19:21:47 AST">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC02_CheckDifferent@6366ebe0]" name="prepare" is-config="true" duration-ms="7531" started-at="2023-01-18T02:26:12 AST" finished-at="2023-01-18T02:26:20 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepare -->
-        <test-method status="PASS" signature="CheckDifferent()[pri:2, instance:testcases.TC02_CheckDifferent@53f65459]" name="CheckDifferent" duration-ms="5302" started-at="2023-01-13T19:21:47 AST" description="check Different operation in the calculator" finished-at="2023-01-13T19:21:52 AST">
+        <test-method status="PASS" signature="CheckDifferent()[pri:2, instance:testcases.TC02_CheckDifferent@6366ebe0]" name="CheckDifferent" duration-ms="4588" started-at="2023-01-18T02:26:20 AST" description="check Different operation in the calculator" finished-at="2023-01-18T02:26:25 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckDifferent -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC02_CheckDifferent@53f65459]" name="TearDown" is-config="true" duration-ms="514" started-at="2023-01-13T19:21:52 AST" finished-at="2023-01-13T19:21:52 AST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC02_CheckDifferent@6366ebe0]" name="TearDown" is-config="true" duration-ms="399" started-at="2023-01-18T02:26:25 AST" finished-at="2023-01-18T02:26:25 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testcases.TC02_CheckDifferent -->
-    </test> <!-- check different -->
-    <test name="check division" duration-ms="12973" started-at="2023-01-13T19:21:52 AST" finished-at="2023-01-13T19:22:05 AST">
+    </test> <!-- checkdifferent -->
+    <test name="checkdivision" duration-ms="12773" started-at="2023-01-18T02:26:25 AST" finished-at="2023-01-18T02:26:38 AST">
       <class name="testcases.TC03_CheckDivision">
-        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC03_CheckDivision@6acdbdf5]" name="prepare" is-config="true" duration-ms="7513" started-at="2023-01-13T19:21:52 AST" finished-at="2023-01-13T19:22:00 AST">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC03_CheckDivision@69379752]" name="prepare" is-config="true" duration-ms="7289" started-at="2023-01-18T02:26:25 AST" finished-at="2023-01-18T02:26:32 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepare -->
-        <test-method status="PASS" signature="CheckDivision()[pri:3, instance:testcases.TC03_CheckDivision@6acdbdf5]" name="CheckDivision" duration-ms="4952" started-at="2023-01-13T19:22:00 AST" description="check Division the calculator" finished-at="2023-01-13T19:22:05 AST">
+        <test-method status="PASS" signature="CheckDivision()[pri:3, instance:testcases.TC03_CheckDivision@69379752]" name="CheckDivision" duration-ms="4960" started-at="2023-01-18T02:26:32 AST" description="check Division the calculator" finished-at="2023-01-18T02:26:37 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckDivision -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC03_CheckDivision@6acdbdf5]" name="TearDown" is-config="true" duration-ms="505" started-at="2023-01-13T19:22:05 AST" finished-at="2023-01-13T19:22:05 AST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC03_CheckDivision@69379752]" name="TearDown" is-config="true" duration-ms="519" started-at="2023-01-18T02:26:37 AST" finished-at="2023-01-18T02:26:38 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testcases.TC03_CheckDivision -->
-    </test> <!-- check division -->
-    <test name="check multi" duration-ms="13434" started-at="2023-01-13T19:22:05 AST" finished-at="2023-01-13T19:22:19 AST">
+    </test> <!-- checkdivision -->
+    <test name="checkmulti" duration-ms="13222" started-at="2023-01-18T02:26:38 AST" finished-at="2023-01-18T02:26:51 AST">
       <class name="testcases.TC04_CheckMulti">
-        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC04_CheckMulti@2833cc44]" name="prepare" is-config="true" duration-ms="7930" started-at="2023-01-13T19:22:05 AST" finished-at="2023-01-13T19:22:13 AST">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC04_CheckMulti@1e4a7dd4]" name="prepare" is-config="true" duration-ms="7943" started-at="2023-01-18T02:26:38 AST" finished-at="2023-01-18T02:26:46 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepare -->
-        <test-method status="PASS" signature="CheckMuliti()[pri:4, instance:testcases.TC04_CheckMulti@2833cc44]" name="CheckMuliti" duration-ms="4955" started-at="2023-01-13T19:22:13 AST" description="check multi in the calculator" finished-at="2023-01-13T19:22:18 AST">
+        <test-method status="PASS" signature="CheckMuliti()[pri:4, instance:testcases.TC04_CheckMulti@1e4a7dd4]" name="CheckMuliti" duration-ms="4804" started-at="2023-01-18T02:26:46 AST" description="check multi in the calculator" finished-at="2023-01-18T02:26:50 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckMuliti -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC04_CheckMulti@2833cc44]" name="TearDown" is-config="true" duration-ms="547" started-at="2023-01-13T19:22:18 AST" finished-at="2023-01-13T19:22:19 AST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC04_CheckMulti@1e4a7dd4]" name="TearDown" is-config="true" duration-ms="472" started-at="2023-01-18T02:26:50 AST" finished-at="2023-01-18T02:26:51 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testcases.TC04_CheckMulti -->
-    </test> <!-- check multi -->
+    </test> <!-- checkmulti -->
+    <test name="checkcomplex" duration-ms="29271" started-at="2023-01-18T02:26:51 AST" finished-at="2023-01-18T02:27:20 AST">
+      <class name="testcases.TC05_ComplexMath">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC05_ComplexMath@51b279c9]" name="prepare" is-config="true" duration-ms="7109" started-at="2023-01-18T02:26:51 AST" finished-at="2023-01-18T02:26:58 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="Complex()[pri:5, instance:testcases.TC05_ComplexMath@51b279c9]" name="Complex" duration-ms="21696" started-at="2023-01-18T02:26:58 AST" description="check complex math in the calculator" finished-at="2023-01-18T02:27:20 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Complex -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC05_ComplexMath@51b279c9]" name="TearDown" is-config="true" duration-ms="463" started-at="2023-01-18T02:27:20 AST" finished-at="2023-01-18T02:27:20 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.TC05_ComplexMath -->
+    </test> <!-- checkcomplex -->
+    <test name="checkcomplextwo" duration-ms="24818" started-at="2023-01-18T02:27:20 AST" finished-at="2023-01-18T02:27:45 AST">
+      <class name="testcases.TC06_ComplexTwo">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:testcases.TC06_ComplexTwo@50de0926]" name="prepare" is-config="true" duration-ms="7599" started-at="2023-01-18T02:27:20 AST" finished-at="2023-01-18T02:27:28 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="ComplexTwo()[pri:6, instance:testcases.TC06_ComplexTwo@50de0926]" name="ComplexTwo" duration-ms="16836" started-at="2023-01-18T02:27:28 AST" description="check another complex math in the calculator" finished-at="2023-01-18T02:27:45 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComplexTwo -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.TC06_ComplexTwo@50de0926]" name="TearDown" is-config="true" duration-ms="381" started-at="2023-01-18T02:27:45 AST" finished-at="2023-01-18T02:27:45 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.TC06_ComplexTwo -->
+    </test> <!-- checkcomplextwo -->
   </suite> <!-- check_sum_operation -->
 </testng-results>

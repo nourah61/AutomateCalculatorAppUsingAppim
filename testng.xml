@@ -7,22 +7,35 @@
         </classes>
     </test>
 
-    <test verbose="1" preserve-order="true" name="check different">
+    <test verbose="1" preserve-order="true" name="checkdifferent">
         <classes>
             <class name="testcases.TC02_CheckDifferent"></class>
         </classes>
     </test>
 
-    <test verbose="1" preserve-order="true" name="check division">
+    <test verbose="1" preserve-order="true" name="checkdivision">
         <classes>
             <class name="testcases.TC03_CheckDivision"></class>
         </classes>
     </test>
 
-    <test verbose="1" preserve-order="true" name="check multi">
+    <test verbose="1" preserve-order="true" name="checkmulti">
         <classes>
             <class name="testcases.TC04_CheckMulti"></class>
         </classes>
     </test>
+
+    <test verbose="1" preserve-order="true" name="checkcomplex">
+        <classes>
+            <class name="testcases.TC05_ComplexMath"></class>
+        </classes>
+    </test>
+
+    <test verbose="1" preserve-order="true" name="checkcomplextwo">
+        <classes>
+            <class name="testcases.TC06_ComplexTwo"></class>
+        </classes>
+    </test>
+
 
 </suite>
