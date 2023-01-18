@@ -1,39 +1,38 @@
 package testcases;
 
-import com.relevantcodes.extentreports.LogStatus;
-import org.example.pages.P01_CalualoturPage;
+import org.example.pages.P01_CalculatorPage;
 import org.example.pages.PageBases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC06_ComplexTwo extends TestBases {
 
-    P01_CalualoturPage calualoturPage;
+    P01_CalculatorPage CalculatorPage;
 
     @Test(priority = 6, description = "check another complex math in the calculator")
     public void ComplexTwo() {
-     calualoturPage = new P01_CalualoturPage(driver);
-     calualoturPage.number6.click();
-     calualoturPage.number4.click();
-     calualoturPage.number3.click();
-     calualoturPage.plucputton.click();
-     calualoturPage.number2.click();
-     calualoturPage.number8.click();
-     calualoturPage.number8.click();
-     calualoturPage.multibutton.click();
-     calualoturPage.number9.click();
-     calualoturPage.divisionbutton.click();
-     calualoturPage.number6.click();
-     calualoturPage.multibutton.click();
-     calualoturPage.number2.click();
-     calualoturPage.differentbutton.click();
-     calualoturPage.number7.click();
-     calualoturPage.number0.click();
-     calualoturPage.percentbutton.click();
-     calualoturPage.number5.click();
-     calualoturPage.equalputton.click();
+     CalculatorPage = new P01_CalculatorPage(driver);
+     CalculatorPage.number6.click();
+     CalculatorPage.number4.click();
+     CalculatorPage.number3.click();
+     CalculatorPage.plucputton.click();
+     CalculatorPage.number2.click();
+     CalculatorPage.number8.click();
+     CalculatorPage.number8.click();
+     CalculatorPage.multibutton.click();
+     CalculatorPage.number9.click();
+     CalculatorPage.divisionbutton.click();
+     CalculatorPage.number6.click();
+     CalculatorPage.multibutton.click();
+     CalculatorPage.number2.click();
+     CalculatorPage.differentbutton.click();
+     CalculatorPage.number7.click();
+     CalculatorPage.number0.click();
+     CalculatorPage.percentbutton.click();
+     CalculatorPage.number5.click();
+     CalculatorPage.equalputton.click();
 
-     Assert.assertEquals(calualoturPage.resulttext.getText(), "4");
+     Assert.assertEquals(CalculatorPage.resulttext.getText(), "4");
      PageBases.captureScreenshot(driver,"completwo");
 
     }

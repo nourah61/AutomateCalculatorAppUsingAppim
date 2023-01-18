@@ -1,16 +1,14 @@
 package org.example.pages;
 
-import com.sun.xml.internal.bind.v2.model.core.ID;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class P01_CalualoturPage {
+public class P01_CalculatorPage {
 
-    public  P01_CalualoturPage(AppiumDriver driver) {
+    public P01_CalculatorPage(AppiumDriver driver) {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 

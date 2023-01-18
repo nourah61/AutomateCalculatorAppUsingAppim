@@ -1,47 +1,45 @@
 package testcases;
 
-import org.example.pages.P01_CalualoturPage;
+import org.example.pages.P01_CalculatorPage;
 import org.example.pages.PageBases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static testcases.TestBases.driver;
-
 public class TC05_ComplexMath  extends TestBases{
 
-    P01_CalualoturPage calualoturPage;
+    P01_CalculatorPage CalculatorPage;
 
     @Test(priority = 5, description = "check complex math in the calculator")
     public void Complex() {
-        calualoturPage = new P01_CalualoturPage(driver);
-        calualoturPage.number6.click();
-        calualoturPage.number6.click();
-        calualoturPage.number8.click();
-        calualoturPage.plucputton.click();
-        calualoturPage.number1.click();
-        calualoturPage.number5.click();
-        calualoturPage.number6.click();
-        calualoturPage.divisionbutton.click();
-        calualoturPage.number6.click();
-        calualoturPage.number7.click();
-        calualoturPage.differentbutton.click();
-        calualoturPage.number1.click();
-        calualoturPage.number1.click();
-        calualoturPage.number8.click();
-        calualoturPage.plucputton.click();
-        calualoturPage.number2.click();
-        calualoturPage.number0.click();
-        calualoturPage.number0.click();
-        calualoturPage.multibutton.click();
-        calualoturPage.number5.click();
-        calualoturPage.number7.click();
-        calualoturPage.number0.click();
-        calualoturPage.percentbutton.click();
-        calualoturPage.number7.click();
-        calualoturPage.equalputton.click();
+        CalculatorPage = new P01_CalculatorPage(driver);
+        CalculatorPage.number6.click();
+        CalculatorPage.number6.click();
+        CalculatorPage.number8.click();
+        CalculatorPage.plucputton.click();
+        CalculatorPage.number1.click();
+        CalculatorPage.number5.click();
+        CalculatorPage.number6.click();
+        CalculatorPage.divisionbutton.click();
+        CalculatorPage.number6.click();
+        CalculatorPage.number7.click();
+        CalculatorPage.differentbutton.click();
+        CalculatorPage.number1.click();
+        CalculatorPage.number1.click();
+        CalculatorPage.number8.click();
+        CalculatorPage.plucputton.click();
+        CalculatorPage.number2.click();
+        CalculatorPage.number0.click();
+        CalculatorPage.number0.click();
+        CalculatorPage.multibutton.click();
+        CalculatorPage.number5.click();
+        CalculatorPage.number7.click();
+        CalculatorPage.number0.click();
+        CalculatorPage.percentbutton.click();
+        CalculatorPage.number7.click();
+        CalculatorPage.equalputton.click();
 
 
-        Assert.assertEquals(calualoturPage.resulttext.getText(), "2.5897435897495598");
+        Assert.assertEquals(CalculatorPage.resulttext.getText(), "2.5897435897495598");
         PageBases.captureScreenshot(driver,"complexsult");
 
 }}
